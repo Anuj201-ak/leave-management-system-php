@@ -41,8 +41,6 @@ A responsive web application developed to automate the employee leave management
 
 Run the require command:
 
-Bash
-
 composer require vendor/package-name
 Example: composer require phpmailer/phpmailer
 
