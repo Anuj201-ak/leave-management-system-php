@@ -31,6 +31,19 @@ A responsive web application developed to automate the employee leave management
     * Create a new database named `elms` (or your database name).
     * Import the `database.sql` file located in the root folder.
 4.  **Configure:**
-    * Open `includes/config.php` (or your connection file).
+     * Open `includes/config.php` (or your connection file).
     * Update the database credentials if necessary.
-5.  **Run:** Open your browser and go to `http://localhost/leave-management-system`.
+6.  **Run:** Open your browser and go to `http://localhost/leave-management-system`.
+7.  **if vendor file error is occuring**
+   *here you can simply install vendor files if not working.
+    Steps are:
+    Open your terminal in your project root.
+
+Run the require command:
+
+Bash
+
+composer require vendor/package-name
+Example: composer require phpmailer/phpmailer
+
+This will automatically create the vendor folder and add the library to it.
