@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar {
+    z-index: 9999;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.navbar .navbar-text {
+    font-size: 18px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}

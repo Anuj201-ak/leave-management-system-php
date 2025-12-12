@@ -1,0 +1,26 @@
+/* Common layout for pages */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Adjust page content to account for sidebar */
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Badge rounded style */
+.badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.7em;
+}
